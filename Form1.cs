@@ -174,5 +174,11 @@ namespace lambda
         {
             Application.Exit();
         }
+
+        private void cmdTest2_Click(object sender, EventArgs e)
+        {
+            Log("IsNullOrEmpty => " + "".IsNullOrEmpty());
+            Log("IsNotNullOrEmpty => " + "".IsNotNullOrEmpty());
+        }
     }
 }
