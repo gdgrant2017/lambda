@@ -32,5 +32,10 @@ namespace lambda
         {
             return !string.IsNullOrEmpty(text);
         }
+
+        public static bool IsNullOrEmpty(this string text)
+        {
+            return string.IsNullOrEmpty(text);
+        }
     }
 }
