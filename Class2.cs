@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace lambda
 {
-    public class Class1
+    public class Class2
     {
-        public Class1()
+        public Class2()
         {
 
         }
